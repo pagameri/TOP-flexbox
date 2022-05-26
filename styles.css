@@ -97,14 +97,11 @@ h2 {
   width: 140px;
   border: 5px solid #3882f6;
   border-radius: 20px;
-  /*padding: 20px; */
-  
 }
 
 .image-text {
   display: flex;
   flex-direction: column;
-  /*gap: 55px;*/
   justify-content: center;
   align-self: flex-start;
 }
