@@ -101,13 +101,15 @@ h2 {
   
 }
 
-.subtext {
+.image-text {
   display: flex;
-  gap: 55px;
+  flex-direction: column;
+  /*gap: 55px;*/
   justify-content: center;
+  align-self: flex-start;
 }
 
-.subtext .text {
+.image-text .text {
   width: 150px;
   text-align: center;
   padding-top: 10px;
