@@ -1,5 +1,5 @@
 body {
-  font-family: Calibri, sans-serif;
+  font-family: "Trebuchet MS", Tahoma, sans-serif;
   min-height: 100vh;
   margin: 0;
   display: flex;
@@ -47,20 +47,19 @@ ul {
   flex: 1;
 }
 
-
 .box {
   flex: 1;
-  background-color: gray;
 }
 
 .box img {
   max-width: 100%;
-  height: auto;
+  height: auto;  
 }
 
 h1 {
   font-size: 48px;
   font-weight: 900;
+  margin-top: 0;
 }
 
 button {
@@ -94,11 +93,11 @@ h2 {
 }
 
 .square {
-  height: 100px;
-  width: 100px;
+  height: 140px;
+  width: 140px;
   border: 5px solid #3882f6;
   border-radius: 20px;
-  padding: 20px; 
+  /*padding: 20px; */
   
 }
 
